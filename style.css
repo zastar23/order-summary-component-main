@@ -1,0 +1,40 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: var(--step-1);
+}
+
+:root {
+    --step--2: clamp(0.69rem, 0.71rem + -0.08vw, 0.64rem);
+    --step--1: clamp(0.83rem, 0.84rem + -0.05vw, 0.80rem);
+    --step-0: clamp(1.00rem, 1.00rem + 0.00vw, 1.00rem);
+    --step-1: clamp(1.20rem, 1.19rem + 0.07vw, 1.25rem);
+    --step-2: clamp(1.44rem, 1.41rem + 0.18vw, 1.56rem);
+    --step-3: clamp(1.73rem, 1.66rem + 0.32vw, 1.95rem);
+    --step-4: clamp(2.07rem, 1.97rem + 0.53vw, 2.44rem);
+    --step-5: clamp(2.49rem, 2.33rem + 0.81vw, 3.05rem);
+    --pale_blue: hsl(225, 100%, 94%);
+    --bright_blue: hsl(245, 75%, 52%);
+    --very_pale_blue:  hsl(225, 100%, 98%);
+    --desaturated_blue: hsl(224, 23%, 55%);
+    --dark_blue: hsl(223, 47%, 23%);
+}
+
+body {
+    background-color: var(--pale_blue);
+}
+
+h1 {
+    font-weight: 900;
+    margin: 1em 0;
+}
+
+p {
+    font-weight: 500;
+    opacity: 70%;
+    margin: 1em 0;
+}
